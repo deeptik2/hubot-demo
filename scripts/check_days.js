@@ -4,3 +4,5 @@ module.exports = function(robot) {
         msg.reply(today.getDay() !== 0 || today.getDay() !== 6 ? "Weekday":"Not Weekday")
     })
 }
+
+
